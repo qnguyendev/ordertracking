@@ -1,0 +1,26 @@
+/* Enter your custom styles here */
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+   border: 2px solid #4CAF50;
+   background-color: #4CAF50;
+   margin-right: 0.150rem
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+   border: 2px solid #4CAF50;
+   margin-left: 0.150rem
+}
+
+.myAppDemoWT .myCustomText {
+   display: inline-block;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+sapUiUx3TVTitleSecond, sapUiUx3TVTitleFirst {
+    font-size : 30px;
+    font-weight: bold;
+}
+sapMShellHeaderText{
+	font-size: 40px;
+	font-weight: bold;
+}
