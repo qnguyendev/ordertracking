@@ -8,14 +8,14 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
-	"sap/ui/core/util/Export",
+	//"sap/ui/core/util/Export",
 	"sap/ui/core/util/ExportTypeCSV",
 	"sap/m/MessageToast",
 	"sap/m/MessageBox",
 	"../libs/xlsx",
 	"../libs/moment",
 	"../libs/blob"
-], function (Controller, JSONModel, Filter, FilterOperator, Export, ExportTypeCSV, MessageToast, MessageBox, xlsxjs, momentjs, blobjs) {
+], function (Controller, JSONModel, Filter, FilterOperator, ExportTypeCSV, MessageToast, MessageBox, xlsxjs, momentjs, blobjs) {
 	"use strict";
 	return Controller.extend("luxottica.fiori.test.test01.controller.App", {
 		onInit: function () {
